@@ -28,14 +28,13 @@ imageElement.setAttribute('alt',`Profile image of ${fullName}`);
 
 
 /* Step 5 - Array */
-let myfavoriteFoods = ['Rice','Pizza','Steak','Fufu and Peanut Soup'];
+let myfavoriteFoods = ['Rice','Pizza','Steak','Fufu and Peanut Soup','Kenkey'];
 foodElement.innerHTML += `${myfavoriteFoods}`;
 
-let anotherFavoriteFood='Banku with Chicken Stew';
+let anotherFavoriteFood='Tacos';
 myfavoriteFoods.push(anotherFavoriteFood);
 foodElement.innerHTML += `<br>${myfavoriteFoods}`;
 myfavoriteFoods.shift();
-myfavoriteFoods.push('Rice');
 foodElement.innerHTML += `<br>${myfavoriteFoods}`;
 myfavoriteFoods.pop();
 foodElement.innerHTML += `<br>${myfavoriteFoods}`;
