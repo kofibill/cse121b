@@ -2,10 +2,12 @@
 
 /* FUNCTIONS */
 /* Function Definition - Add Numbers */
-const numbers =[1,2,3,4,5,6,7,8,9,10,11,12,13];
- 
-const add= (number1,number2) =>{
-      return number1+number2;
+function add(number1,number2){
+    return number1 + number2;
+}
+
+function addNumbers(){
+    
 }
 
 /* Function Expression - Subtract Numbers */
@@ -14,7 +16,7 @@ const subtract =(number1,number2)=>{
 }
 
 /* Arrow Function - Multiply Numbers */
-
+const multiply =(number1, number2) => number1 * number2;
 
 /* Open Function Use - Divide Numbers */
 
@@ -30,6 +32,7 @@ document.querySelector('#array').innerHTML = numbers.map((value)=>{
 /* Output Odds Only Array */
 document.querySelector('#odds').innerHTML = numbers.filter((value)=>{
     if((value%2)>0) return value;
+});
 /* Output Evens Only Array */
 document.getElementById('evens').innerHTML=  numbers.filter((myvalue)=>{if( (myvalue%2)==0)  return myvalue;});
 /* Output Sum of Org. Array */

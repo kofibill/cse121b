@@ -9,9 +9,9 @@ let myProfile = { name:'William Osiakwan',
     };
 
 /* Populate Profile Object with placesLive objects */
-myProfile.placesLived.push({place:'Calabar, Nigeria', length:'6 month'});
-myProfile.placesLived.push({place:'Oron, Nigeria', length:'1 year'});
-myProfile.placesLived.push({place:'Uyo, Nigeria', length:'6 months'});
+myProfile.placesLived.push({place:'Calabar, Nigeria', length:'2 years'});
+myProfile.placesLived.push({place:'Accra, Ghana', length:'5 years'});
+myProfile.placesLived.push({place:'Tema, Ghana', length:'6 months'});
 
 
 
