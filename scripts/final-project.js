@@ -5,6 +5,7 @@ async function fetchData(){
 
     try{
         const pokemonName = document.getElementById("pokemonName").value.toLowerCase();
+        
         // fetch data from the pokeman api
         const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`);
 
